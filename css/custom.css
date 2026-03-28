@@ -50,9 +50,35 @@
     background-image: none !important;    /* Removes the Bootstrap gradient */
 }
 /* Change the icon color itself */
-.feature.custom-bg i {
+.feature .custom-bg i {
     color: #ffffff; 
 }
+/* Chef Icon Size */
+.md-48{
+    font-size: 48px;
+}
+
+/* ==========================================
+   GLOBAL TYPOGRAPHY
+   ========================================== */
+
+/* 1. Clean, modern font for all paragraph text */
+body {
+    font-family: 'Lato', sans-serif !important;
+}
+
+/* 2. Elegant, classic serif font for all titles and brand names */
+h1, h2, h3, h4, h5, h6, li,
+.display-1, .display-2, .display-3, .display-4, .display-5, .display-6, 
+.navbar-brand {
+    font-family: 'Lora', serif !important;
+}
+
+/* Optional: Add a touch of elegance to the italicized subtitle */
+.display-6 {
+    letter-spacing: 1px;
+}
+
 #hero{
     display: flex;
       justify-content: center;
@@ -92,4 +118,70 @@
 
 #how-it-works{
     background-color: #556b2f;
+}
+
+/* ==========================================
+   MENU PAGE TYPOGRAPHY & STYLING
+   ========================================== */
+
+/* Menu Category Titles (e.g., APPETIZERS, MAIN COURSE) */
+.menu-category-title {
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #556b2f;
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 0.5rem;
+}
+
+/* Specific Dish Name */
+.dish-name {
+    font-family: 'Lora', serif;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #212529;
+    margin-bottom: 0.25rem;
+}
+
+/* Dish Ingredients / Description */
+.dish-description {
+    font-family: 'Lato', sans-serif;
+    font-size: 0.95rem;
+    color: #6c757d;
+    font-style: italic;
+    margin-bottom: 1.5rem;
+}
+
+/* Style the Tab Buttons to match your Olive Green */
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: #556b2f !important;
+    color: white !important;
+}
+.nav-pills .nav-link {
+    color: #556b2f;
+    font-family: 'Lora', serif;
+    font-weight: 500;
+    margin: 0.25rem;
+    border: 1px solid transparent;
+}
+.nav-pills .nav-link:hover {
+    border: 1px solid #556b2f;
+}
+
+/* Elegant Separator for the Breakfast List */
+.elegant-list li {
+    display: inline-block;
+    margin: 0 12px; /* Space between the items */
+}
+
+.elegant-list li::before {
+    content: "♦";
+    color: #556b2f;
+    font-size: 0.7rem;
+    margin-right: 10px; /* Space between diamond and text */
+    vertical-align: middle;
 }
