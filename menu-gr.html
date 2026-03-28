@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <title>Our Menus | G2 Chefs</title>
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+        
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
+        <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/custom.css" rel="stylesheet" />
+    </head>
+    <body class="d-flex flex-column min-vh-100">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+            <div class="container px-3 px-lg-5">
+                <a class="navbar-brand text-wrap" style="max-width: 75%;" href="index.html">Private dining by G2 Chef's</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="index.html#home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#services">Services</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="menu.html">Menu</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#contact">Contact</a></li>
+                    </ul>
+                    <div class="d-flex align-items-center ms-lg-4 mt-3 mt-lg-0">
+                        <div class="btn-group" role="group">
+                            <a href="menu.html" class="btn btn-sm btn-light fw-bold text-dark px-3">EN</a>
+                            <a href="menu-gr.html" class="btn btn-sm btn-outline-light px-3">GR</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <section class="py-5 text-center" style="background-color: #f8f9fa;">
+            <div class="container">
+                <h1 class="display-4 fw-bold">Culinary Experiences</h1>
+                <p class="lead text-muted">A taste of Crete, curated for your villa.</p>
+            </div>
+        </section>
+
+        <section class="py-5">
+            <div class="container px-4 col-lg-8 mx-auto">
+                
+                <ul class="nav nav-pills justify-content-center mb-5" id="menuTabs" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="bbq-tab" data-bs-toggle="pill" data-bs-target="#bbq" type="button" role="tab">BBQ Menu</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="cretan-tab" data-bs-toggle="pill" data-bs-target="#cretan" type="button" role="tab">Traditional Cretan</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="veg-tab" data-bs-toggle="pill" data-bs-target="#vegetarian" type="button" role="tab">Vegetarian</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="kids-tab" data-bs-toggle="pill" data-bs-target="#kids" type="button" role="tab">Kids Menu</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="cooking-tab" data-bs-toggle="pill" data-bs-target="#cooking" type="button" role="tab">Cooking Class</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="breakfast-tab" data-bs-toggle="pill" data-bs-target="#breakfast" type="button" role="tab">Breakfast</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="notes-tab" data-bs-toggle="pill" data-bs-target="#notes" type="button" role="tab">Notes</button>
+                    </li>
+                </ul>
+
+                <div class="tab-content text-center" id="menuTabsContent">
+                    
+                    <div class="tab-pane fade show active" id="bbq" role="tabpanel">
+                        <span class="badge rounded-pill bg-light text-dark border px-4 py-2" style="font-family: 'Lato', sans-serif; font-size: 1rem; letter-spacing: 1px;">
+                            Experience from €80 per guest
+                        </span>
+                        <h4 class="menu-category-title">Bakery</h4>
+                        <div class="dish-name">Assorted Breads</div>
+                        <div class="dish-description">Individual bread rolls and assorted breadsticks served with olive pâté.</div>
+
+                        <h4 class="menu-category-title">Appetizers</h4>
+                        <div class="dish-name">Feta "Bouyiourdi"</div>
+                        <div class="dish-description">Feta cheese, colorful peppers, olive oil, spicy chili flakes.</div>
+                        <div class="dish-name">Hortopita</div>
+                        <div class="dish-description">Traditional Cretan wild greens pie with feta cheese.</div>
+                        <div class="dish-name">Tzatziki</div>
+                        <div class="dish-description">Yogurt, cucumber, garlic, vinegar, olive oil.</div>
+
+                        <h4 class="menu-category-title">Salad</h4>
+                        <div class="dish-name">Classic Greek Salad</div>
+                        <div class="dish-description">Tomato, cucumber, onion, green pepper, capers, feta cheese, extra virgin olive oil.</div>
+
+                        <h4 class="menu-category-title">Main Course</h4>
+                        <div class="dish-name">Mixed Grill Platter</div>
+                        <div class="dish-description">Village sausage, beef patty, chicken souvlaki, pork belly (pancetta), flatbread, tomato, onion, parsley. Served together on a wooden platter.</div>
+
+                        <h4 class="menu-category-title">Dessert</h4>
+                        <div class="dish-name">Galaktoboureko</div>
+                        <div class="dish-description">Semolina custard in phyllo with milk, butter, and egg, topped with house-made syrup.</div>
+                    </div>
+
+                    <div class="tab-pane fade" id="cretan" role="tabpanel">
+                        <h4 class="menu-category-title">Bakery</h4>
+                        <div class="dish-name">Assorted Breads</div>
+                        <div class="dish-description">Individual bread rolls and assorted breadsticks served with olive pâté.</div>
+
+                        <h4 class="menu-category-title">Appetizers</h4>
+                        <div class="dish-name">Dolmadakia with Yogurt Sauce</div>
+                        <div class="dish-description">Hand-rolled stuffed grape leaves with rice and fresh herbs.</div>
+                        <div class="dish-name">Traditional Cheese Platter</div>
+                        <div class="dish-description">Graviera, Anthotyros, Xygalo Siteias (all P.D.O.), and Kefalotyri with Cretan herbs.</div>
+                        <div class="dish-name">Skiouficta with Apaki & Anthotyros</div>
+                        <div class="dish-description">Traditional handmade Cretan pasta, smoked pork "apaki," tomato sauce, and anthotyros cheese.</div>
+
+                        <h4 class="menu-category-title">Salad</h4>
+                        <div class="dish-name">Cretan Salad</div>
+                        <div class="dish-description">Tomato, cucumber, onion, colorful peppers, avocado, barley rusk, sea fennel (kritamo), eggs, potatoes, oregano, fresh basil, and Pichtogalo cheese.</div>
+
+                        <h4 class="menu-category-title">Main Course</h4>
+                        <div class="dish-name">"Ofto" Lamb with Oven Potatoes</div>
+                        <div class="dish-description">Slow-roasted lamb shoulder served with traditional potatoes.</div>
+
+                        <h4 class="menu-category-title">Dessert</h4>
+                        <div class="dish-name">Xerotigana with Kaimaki Ice Cream</div>
+                        <div class="dish-description">Crispy honey-dipped pastry spirals sprinkled with walnuts and sesame, served with chilled Kaimaki ice cream.</div>
+                    </div>
+
+                    <div class="tab-pane fade" id="vegetarian" role="tabpanel">
+                        <h4 class="menu-category-title">Appetizers</h4>
+                        <div class="dish-name">Santorini Fava</div>
+                        <div class="dish-description">Split pea purée with slow-cooked caramelized onions and a touch of sugar.</div>
+                        <div class="dish-name">Dolmadakia</div>
+                        <div class="dish-description">Stuffed grape leaves with rice and fresh herbs.</div>
+                        <div class="dish-name">Marathopita</div>
+                        <div class="dish-description">Traditional Cretan fennel pie fried in extra virgin olive oil.</div>
+
+                        <h4 class="menu-category-title">Salad</h4>
+                        <div class="dish-name">Beetroot Salad</div>
+                        <div class="dish-description">Boiled beets, crushed walnuts, and tahini.</div>
+
+                        <h4 class="menu-category-title">Main Course</h4>
+                        <p class="text-muted fst-italic mb-4" style="font-size: 0.9rem;">(Please select one of the following for the table)</p>
+                        
+                        <div class="dish-name">Gemista</div>
+                        <div class="dish-description">Tomatoes and peppers stuffed with rice, tomato sauce, mint, and basil.</div>
+                        <div class="dish-name">Briam</div>
+                        <div class="dish-description">Roasted zucchini, potato, eggplant, onion, garlic, tomato sauce, mint, and basil.</div>
+
+                        <h4 class="menu-category-title">Dessert</h4>
+                        <div class="dish-name">Semolina Halva</div>
+                        <div class="dish-description">Traditional pudding made with sunflower oil, semolina, sugar, and Cretan raisins.</div>
+                    </div>
+
+                    <div class="tab-pane fade" id="kids" role="tabpanel">
+                        <h4 class="menu-category-title">For the Little Ones</h4>
+                        
+                        <div class="dish-name">Pasta with Tomato Sauce</div>
+                        <div class="dish-description">Linguine or penne with mild tomato sauce and grated Cretan Graviera cheese.</div>
+                        
+                        <div class="dish-name">Chicken Nuggets</div>
+                        <div class="dish-description">Breaded chicken fillet bites fried in pure olive oil.</div>
+                        
+                        <div class="dish-name">Beef Burger</div>
+                        <div class="dish-description">Brioche bun, cheddar cheese, light mayo, fresh tomato, and lettuce.</div>
+                        
+                        <div class="dish-name">Kids Greek Salad</div>
+                        <div class="dish-description">Tomato, cucumber, feta cheese, and olive oil (No onions).</div>
+                        
+                        <div class="dish-name">Fruit Salad</div>
+                        <div class="dish-description">A fresh bowl of sweet, seasonal fruits.</div>
+                    </div>
+
+                    <div class="tab-pane fade" id="cooking" role="tabpanel">
+                        <h4 class="menu-category-title">Appetizers</h4>
+                        <div class="dish-name">Tzatziki</div>
+                        <div class="dish-description">Traditional Greek yogurt dip with cucumber and garlic.</div>
+                        
+                        <div class="dish-name">Cretan Dakos</div>
+                        <div class="dish-description">Barley rusk, grated tomato, crumbled feta, extra virgin olive oil, and mountain herbs.</div>
+                        
+                        <div class="dish-name">Kolokythokeftedes (Zucchini Fritters)</div>
+                        <div class="dish-description">Zucchini, fresh & dry onion, mint, dill, parsley, feta cheese, and olive oil.</div>
+
+                        <h4 class="menu-category-title">Salad</h4>
+                        <div class="dish-name">Green "Dilira" Salad</div>
+                        <div class="dish-description">Red & green Lolla lettuce, baby spinach, Granny Smith apple, sun-dried cherry tomatoes, Cretan raisins, Graviera flakes, and honey-mustard-balsamic dressing.</div>
+
+                        <h4 class="menu-category-title">Main Course</h4>
+                        <div class="dish-name">Pork "Tigania"</div>
+                        <div class="dish-description">Sautéed pork with colorful peppers, onion, garlic, and white wine, served with hand-cut French fries.</div>
+
+                        <h4 class="menu-category-title">Dessert</h4>
+                        <div class="dish-name">Loukoumades</div>
+                        <div class="dish-description">Warm, golden Greek donuts drizzled with thyme honey, cinnamon, and sesame seeds.</div>
+                    </div>
+
+                    <div class="tab-pane fade" id="breakfast" role="tabpanel">
+                        <h4 class="menu-category-title">Morning Selection</h4>
+                        <div class="row text-start justify-content-center">
+                            <div class="col-md-8">
+                                <ul class="list-unstyled text-center" style="font-family: 'Lora', serif; font-size: 1.15rem; color: #212529; line-height: 2;">
+                                    <li>Freshly Squeezed Orange Juice</li>
+                                    <li>Milk, Tea, and Filter Coffee</li>
+                                    <li>Premium Cheese & Cold Cut Platter</li>
+                                    <li>Freshly Baked Bread & Toast</li>
+                                    <li>Fresh Butter & Cretan Thyme Honey</li>
+                                    <li>Homemade Artisanal Marmalade</li>
+                                    <li>Traditional Greek Yogurt</li>
+                                    <li>Rizogalo (Creamy Rice Pudding)</li>
+                                    <li>Miniature Cheese Pies & Spinach Pies</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade text-start" id="notes" role="tabpanel">
+                        <h4 class="menu-category-title text-center">Menu Pricing</h4>
+                        <ul class="list-unstyled text-center" style="font-family: 'Lora', serif; font-size: 1.15rem;">
+                            <li class="mb-2"><strong>BBQ Menu:</strong> €80 per guest</li>
+                            <li class="mb-2"><strong>Traditional Cretan:</strong> €95 per guest</li>
+                            <li class="mb-2"><strong>Seafood Menu:</strong> €120 per guest</li>
+                        </ul>
+                        <p class="text-muted text-center mt-3" style="font-size: 0.9rem; font-family: 'Lato', sans-serif;">
+                            *All menus require a minimum of 4 guests. Prices include grocery shopping, preparation, service, and kitchen clean-up.
+                        </p>
+                        
+                        <h4 class="menu-category-title text-center">Policies & Information</h4>
+                        <ul class="list-unstyled" style="font-family: 'Lato', sans-serif; line-height: 1.8;">
+                            <li><i class="bi bi-check2-circle text-success me-2"></i><strong>Service Style:</strong> Appetizers are served for every two people to encourage a relaxed, shared dining experience. Main courses are individual portions.</li>
+                            <li><i class="bi bi-check2-circle text-success me-2"></i><strong>Quality Ingredients:</strong> We exclusively use fresh vegetables, top-quality meats, Cretan P.D.O. cheeses, and extra virgin Cretan olive oil.</li>
+                            <li><i class="bi bi-check2-circle text-success me-2"></i><strong>Fish Policy:</strong> Fish is served filleted (boneless). Dentex or White Grouper (2-3kg) are available upon request based on market availability.</li>
+                            <li><i class="bi bi-check2-circle text-success me-2"></i><strong>Pricing:</strong> Prices are subject to change based on seasonal market fluctuations.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="py-5 mt-5" style="background-color: #556b2f;">
+            <div class="container px-5"><p class="m-0 text-center text-white">Copyright &copy; G2 Chefs 2026</p></div>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
