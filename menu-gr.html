@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <title>Our Menus | G2 Chefs</title>
+        <title>Τα Μενού Μας | G2 Chef's</title>
         
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,16 +20,16 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="index.html#home">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="index.html#about">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="index.html#services">Services</a></li>
-                        <li class="nav-item"><a class="nav-link active" href="menu.html">Menu</a></li>
-                        <li class="nav-item"><a class="nav-link" href="index.html#contact">Contact</a></li>
+                  <li class="nav-item"><a class="nav-link" href="index-gr.html#home">Αρχική</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index-gr.html#about">Πληροφορίες</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index-gr.html#services">Υπηρεσίες</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="menu-gr.html">Μενού</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index-gr.html#contact">Επικοινωνία</a></li>
                     </ul>
                     <div class="d-flex align-items-center ms-lg-4 mt-3 mt-lg-0">
                         <div class="btn-group" role="group">
-                            <a href="menu.html" class="btn btn-sm btn-light fw-bold text-dark px-3">EN</a>
-                            <a href="menu-gr.html" class="btn btn-sm btn-outline-light px-3">GR</a>
+                            <a href="menu.html" class="btn btn-sm btn-outline-light px-3">EN</a>
+                            <a href="menu-gr.html" class="btn btn-sm btn-light fw-bold text-dark px-3">GR</a>
                         </div>
                     </div>
                 </div>
@@ -38,200 +38,315 @@
 
         <section class="py-5 text-center" style="background-color: #f8f9fa;">
             <div class="container">
-                <h1 class="display-4 fw-bold">Culinary Experiences</h1>
-                <p class="lead text-muted">A taste of Crete, curated for your villa.</p>
+                <h1 class="display-4 fw-bold">Γαστρονομικές Εμπειρίες</h1>
+                <p class="lead text-muted">Μια γεύση από την Κρήτη, προσαρμοσμένη στη βίλα σας.</p>
             </div>
         </section>
 
-        <section class="py-5">
+       <section class="py-5">
             <div class="container px-4 col-lg-8 mx-auto">
                 
                 <ul class="nav nav-pills justify-content-center mb-5" id="menuTabs" role="tablist">
+                    <!-- BBQ MENU -->
                     <li class="nav-item" role="presentation">
-                        <button class="nav-link active" id="bbq-tab" data-bs-toggle="pill" data-bs-target="#bbq" type="button" role="tab">BBQ Menu</button>
+                        <button class="nav-link active" id="bbq-tab" data-bs-toggle="pill" data-bs-target="#bbq" type="button" role="tab">BBQ Μενού</button>
                     </li>
+                    <!-- TRADITIONAL CRETAN MENU -->
                     <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="cretan-tab" data-bs-toggle="pill" data-bs-target="#cretan" type="button" role="tab">Traditional Cretan</button>
+                        <button class="nav-link" id="cretan-tab" data-bs-toggle="pill" data-bs-target="#cretan" type="button" role="tab">Παραδοσιακό Κρητικό Μενού</button>
                     </li>
+                    <!-- SEAFOOD MENU -->
                     <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="veg-tab" data-bs-toggle="pill" data-bs-target="#vegetarian" type="button" role="tab">Vegetarian</button>
+                        <button class="nav-link" id="seafood-tab" data-bs-toggle="pill" data-bs-target="#seafood" type="button" role="tab">Θαλασσινά</button>
                     </li>
+                    <!-- VEGETERIAN/VEGAN -->
                     <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="kids-tab" data-bs-toggle="pill" data-bs-target="#kids" type="button" role="tab">Kids Menu</button>
+                        <button class="nav-link" id="veg-tab" data-bs-toggle="pill" data-bs-target="#vegetarian" type="button" role="tab">Vegetarian & Vegan</button>
                     </li>
+                    <!-- KIDS MENU -->
                     <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="cooking-tab" data-bs-toggle="pill" data-bs-target="#cooking" type="button" role="tab">Cooking Class</button>
+                        <button class="nav-link" id="kids-tab" data-bs-toggle="pill" data-bs-target="#kids" type="button" role="tab">Παιδικό Μενού</button>
                     </li>
+                    <!-- COOKING CLASS -->
                     <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="breakfast-tab" data-bs-toggle="pill" data-bs-target="#breakfast" type="button" role="tab">Breakfast</button>
+                        <button class="nav-link" id="cooking-tab" data-bs-toggle="pill" data-bs-target="#cooking" type="button" role="tab">Μάθημα Μαγειρικής</button>
                     </li>
+                    <!-- BREAKFAST -->
                     <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="notes-tab" data-bs-toggle="pill" data-bs-target="#notes" type="button" role="tab">Notes</button>
+                        <button class="nav-link" id="breakfast-tab" data-bs-toggle="pill" data-bs-target="#breakfast" type="button" role="tab">Πρωινό</button>
+                    </li>
+                    <!-- PRICING AND NOTES -->
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="notes-tab" data-bs-toggle="pill" data-bs-target="#notes" type="button" role="tab">Πληροφορίες</button>
                     </li>
                 </ul>
 
                 <div class="tab-content text-center" id="menuTabsContent">
                     
                     <div class="tab-pane fade show active" id="bbq" role="tabpanel">
-                        <span class="badge rounded-pill bg-light text-dark border px-4 py-2" style="font-family: 'Lato', sans-serif; font-size: 1rem; letter-spacing: 1px;">
-                            Experience from €80 per guest
-                        </span>
-                        <h4 class="menu-category-title">Bakery</h4>
-                        <div class="dish-name">Assorted Breads</div>
-                        <div class="dish-description">Individual bread rolls and assorted breadsticks served with olive pâté.</div>
+                       <h4 class="menu-category-title">Αρτοποιία</h4>
+                        <div class="dish-name">Ποικιλία Ψωμιών</div>
+                        <div class="dish-description">Ατομικά ψωμάκια και ποικιλία από κριτσίνια που σερβίρονται με πατέ ελιάς.</div>
 
-                        <h4 class="menu-category-title">Appetizers</h4>
-                        <div class="dish-name">Feta "Bouyiourdi"</div>
-                        <div class="dish-description">Feta cheese, colorful peppers, olive oil, spicy chili flakes.</div>
-                        <div class="dish-name">Hortopita</div>
-                        <div class="dish-description">Traditional Cretan wild greens pie with feta cheese.</div>
-                        <div class="dish-name">Tzatziki</div>
-                        <div class="dish-description">Yogurt, cucumber, garlic, vinegar, olive oil.</div>
+                        <h4 class="menu-category-title">Ορεκτικά</h4>
+                        <div class="dish-name">Φέτα "Μπουγιουρντί"</div>
+                        <div class="dish-description">Φέτα, πολύχρωμες πιπεριές, ελαιόλαδο, μπούκοβο.</div>
+                        <div class="dish-name">Χορτόπιτα</div>
+                        <div class="dish-description">Παραδοσιακή κρητική πίτα με άγρια χόρτα και φέτα.</div>
+                        <div class="dish-name">Τζατζίκι</div>
+                        <div class="dish-description">Γιαούρτι, αγγούρι, σκόρδο, ξύδι, ελαιόλαδο.</div>
 
-                        <h4 class="menu-category-title">Salad</h4>
-                        <div class="dish-name">Classic Greek Salad</div>
-                        <div class="dish-description">Tomato, cucumber, onion, green pepper, capers, feta cheese, extra virgin olive oil.</div>
+                        <h4 class="menu-category-title">Σαλάτα</h4>
+                        <div class="dish-name">Κλασική Χωριάτικη Σαλάτα</div>
+                        <div class="dish-description">Ντομάτα, αγγούρι, κρεμμύδι, πράσινη πιπεριά, κάπαρη, φέτα, έξτρα παρθένο ελαιόλαδο.</div>
 
-                        <h4 class="menu-category-title">Main Course</h4>
-                        <div class="dish-name">Mixed Grill Platter</div>
-                        <div class="dish-description">Village sausage, beef patty, chicken souvlaki, pork belly (pancetta), flatbread, tomato, onion, parsley. Served together on a wooden platter.</div>
+                        <h4 class="menu-category-title">Κυρίως Πιάτο</h4>
+                        <div class="dish-name">Ποικιλία Grill (Mixed Grill)</div>
+                        <div class="dish-description">Χωριάτικο λουκάνικο, μπιφτέκι, σουβλάκι κοτόπουλο, πανσέτα, πίτες, ντομάτα, κρεμμύδι, μαϊντανός. Σερβίρονται σε ξύλινο πλατό.</div>
 
-                        <h4 class="menu-category-title">Dessert</h4>
-                        <div class="dish-name">Galaktoboureko</div>
-                        <div class="dish-description">Semolina custard in phyllo with milk, butter, and egg, topped with house-made syrup.</div>
-                    </div>
+                        <h4 class="menu-category-title">Επιδόρπιο</h4>
+                        <div class="dish-name">Γαλακτομπούρεκο</div>
+                        <div class="dish-description">Κρέμα σιμιγδαλιού σε φύλλο με γάλα, βούτυρο και αυγό, περιχυμένο με σιρόπι.</div>
 
-                    <div class="tab-pane fade" id="cretan" role="tabpanel">
-                        <h4 class="menu-category-title">Bakery</h4>
-                        <div class="dish-name">Assorted Breads</div>
-                        <div class="dish-description">Individual bread rolls and assorted breadsticks served with olive pâté.</div>
-
-                        <h4 class="menu-category-title">Appetizers</h4>
-                        <div class="dish-name">Dolmadakia with Yogurt Sauce</div>
-                        <div class="dish-description">Hand-rolled stuffed grape leaves with rice and fresh herbs.</div>
-                        <div class="dish-name">Traditional Cheese Platter</div>
-                        <div class="dish-description">Graviera, Anthotyros, Xygalo Siteias (all P.D.O.), and Kefalotyri with Cretan herbs.</div>
-                        <div class="dish-name">Skiouficta with Apaki & Anthotyros</div>
-                        <div class="dish-description">Traditional handmade Cretan pasta, smoked pork "apaki," tomato sauce, and anthotyros cheese.</div>
-
-                        <h4 class="menu-category-title">Salad</h4>
-                        <div class="dish-name">Cretan Salad</div>
-                        <div class="dish-description">Tomato, cucumber, onion, colorful peppers, avocado, barley rusk, sea fennel (kritamo), eggs, potatoes, oregano, fresh basil, and Pichtogalo cheese.</div>
-
-                        <h4 class="menu-category-title">Main Course</h4>
-                        <div class="dish-name">"Ofto" Lamb with Oven Potatoes</div>
-                        <div class="dish-description">Slow-roasted lamb shoulder served with traditional potatoes.</div>
-
-                        <h4 class="menu-category-title">Dessert</h4>
-                        <div class="dish-name">Xerotigana with Kaimaki Ice Cream</div>
-                        <div class="dish-description">Crispy honey-dipped pastry spirals sprinkled with walnuts and sesame, served with chilled Kaimaki ice cream.</div>
-                    </div>
-
-                    <div class="tab-pane fade" id="vegetarian" role="tabpanel">
-                        <h4 class="menu-category-title">Appetizers</h4>
-                        <div class="dish-name">Santorini Fava</div>
-                        <div class="dish-description">Split pea purée with slow-cooked caramelized onions and a touch of sugar.</div>
-                        <div class="dish-name">Dolmadakia</div>
-                        <div class="dish-description">Stuffed grape leaves with rice and fresh herbs.</div>
-                        <div class="dish-name">Marathopita</div>
-                        <div class="dish-description">Traditional Cretan fennel pie fried in extra virgin olive oil.</div>
-
-                        <h4 class="menu-category-title">Salad</h4>
-                        <div class="dish-name">Beetroot Salad</div>
-                        <div class="dish-description">Boiled beets, crushed walnuts, and tahini.</div>
-
-                        <h4 class="menu-category-title">Main Course</h4>
-                        <p class="text-muted fst-italic mb-4" style="font-size: 0.9rem;">(Please select one of the following for the table)</p>
-                        
-                        <div class="dish-name">Gemista</div>
-                        <div class="dish-description">Tomatoes and peppers stuffed with rice, tomato sauce, mint, and basil.</div>
-                        <div class="dish-name">Briam</div>
-                        <div class="dish-description">Roasted zucchini, potato, eggplant, onion, garlic, tomato sauce, mint, and basil.</div>
-
-                        <h4 class="menu-category-title">Dessert</h4>
-                        <div class="dish-name">Semolina Halva</div>
-                        <div class="dish-description">Traditional pudding made with sunflower oil, semolina, sugar, and Cretan raisins.</div>
-                    </div>
-
-                    <div class="tab-pane fade" id="kids" role="tabpanel">
-                        <h4 class="menu-category-title">For the Little Ones</h4>
-                        
-                        <div class="dish-name">Pasta with Tomato Sauce</div>
-                        <div class="dish-description">Linguine or penne with mild tomato sauce and grated Cretan Graviera cheese.</div>
-                        
-                        <div class="dish-name">Chicken Nuggets</div>
-                        <div class="dish-description">Breaded chicken fillet bites fried in pure olive oil.</div>
-                        
-                        <div class="dish-name">Beef Burger</div>
-                        <div class="dish-description">Brioche bun, cheddar cheese, light mayo, fresh tomato, and lettuce.</div>
-                        
-                        <div class="dish-name">Kids Greek Salad</div>
-                        <div class="dish-description">Tomato, cucumber, feta cheese, and olive oil (No onions).</div>
-                        
-                        <div class="dish-name">Fruit Salad</div>
-                        <div class="dish-description">A fresh bowl of sweet, seasonal fruits.</div>
-                    </div>
-
-                    <div class="tab-pane fade" id="cooking" role="tabpanel">
-                        <h4 class="menu-category-title">Appetizers</h4>
-                        <div class="dish-name">Tzatziki</div>
-                        <div class="dish-description">Traditional Greek yogurt dip with cucumber and garlic.</div>
-                        
-                        <div class="dish-name">Cretan Dakos</div>
-                        <div class="dish-description">Barley rusk, grated tomato, crumbled feta, extra virgin olive oil, and mountain herbs.</div>
-                        
-                        <div class="dish-name">Kolokythokeftedes (Zucchini Fritters)</div>
-                        <div class="dish-description">Zucchini, fresh & dry onion, mint, dill, parsley, feta cheese, and olive oil.</div>
-
-                        <h4 class="menu-category-title">Salad</h4>
-                        <div class="dish-name">Green "Dilira" Salad</div>
-                        <div class="dish-description">Red & green Lolla lettuce, baby spinach, Granny Smith apple, sun-dried cherry tomatoes, Cretan raisins, Graviera flakes, and honey-mustard-balsamic dressing.</div>
-
-                        <h4 class="menu-category-title">Main Course</h4>
-                        <div class="dish-name">Pork "Tigania"</div>
-                        <div class="dish-description">Sautéed pork with colorful peppers, onion, garlic, and white wine, served with hand-cut French fries.</div>
-
-                        <h4 class="menu-category-title">Dessert</h4>
-                        <div class="dish-name">Loukoumades</div>
-                        <div class="dish-description">Warm, golden Greek donuts drizzled with thyme honey, cinnamon, and sesame seeds.</div>
-                    </div>
-
-                    <div class="tab-pane fade" id="breakfast" role="tabpanel">
-                        <h4 class="menu-category-title">Morning Selection</h4>
-                        <div class="row text-start justify-content-center">
-                            <div class="col-md-8">
-                                <ul class="list-unstyled text-center" style="font-family: 'Lora', serif; font-size: 1.15rem; color: #212529; line-height: 2;">
-                                    <li>Freshly Squeezed Orange Juice</li>
-                                    <li>Milk, Tea, and Filter Coffee</li>
-                                    <li>Premium Cheese & Cold Cut Platter</li>
-                                    <li>Freshly Baked Bread & Toast</li>
-                                    <li>Fresh Butter & Cretan Thyme Honey</li>
-                                    <li>Homemade Artisanal Marmalade</li>
-                                    <li>Traditional Greek Yogurt</li>
-                                    <li>Rizogalo (Creamy Rice Pudding)</li>
-                                    <li>Miniature Cheese Pies & Spinach Pies</li>
-                                </ul>
-                            </div>
+                        <div class="mt-5 pt-4 border-top text-center">
+                            <p class="text-muted fst-italic mb-2" style="font-family: 'Lora', serif; font-size: 1.05rem;">Απολαύστε αυτό το πλήρες μενού</p>
+                            <span class="badge rounded-pill bg-light text-dark border px-4 py-2" style="font-family: 'Lato', sans-serif; font-size: 0.95rem; letter-spacing: 1px;">
+                                €85 ανά άτομο <span class="text-muted fw-normal">(Για 6+ άτομα)</span>
+                            </span>
                         </div>
                     </div>
+                     <!-- TRADITIONAL CRETAN -->
+                     <div class="tab-pane fade" id="cretan" role="tabpanel">
+                        <h4 class="menu-category-title">Αρτοποιία</h4>
+                        <div class="dish-name">Ποικιλία Ψωμιών</div>
+                        <div class="dish-description">Ατομικά ψωμάκια και ποικιλία από κριτσίνια που σερβίρονται με πατέ ελιάς.</div>
 
-                    <div class="tab-pane fade text-start" id="notes" role="tabpanel">
-                        <h4 class="menu-category-title text-center">Menu Pricing</h4>
+                        <h4 class="menu-category-title">Ορεκτικά</h4>
+                        <div class="dish-name">Ντολμαδάκια με Σάλτσα Γιαουρτιού</div>
+                        <div class="dish-description">Χειροποίητα ντολμαδάκια με ρύζι και φρέσκα μυρωδικά.</div>
+                        <div class="dish-name">Παραδοσιακό Πλατό Τυριών</div>
+                        <div class="dish-description">Γραβιέρα, Ανθότυρος, Ξύγαλο Σητείας (Π.Ο.Π.) και Κεφαλοτύρι με κρητικά βότανα.</div>
+                        <div class="dish-name">Σκιουφιχτά με Απάκι & Ανθότυρο</div>
+                        <div class="dish-description">Παραδοσιακά κρητικά ζυμαρικά, καπνιστό χοιρινό "απάκι", σάλτσα ντομάτας και ανθότυρο.</div>
+
+                        <h4 class="menu-category-title">Σαλάτα</h4>
+                        <div class="dish-name">Κρητική Σαλάτα</div>
+                        <div class="dish-description">Ντομάτα, αγγούρι, κρεμμύδι, πολύχρωμες πιπεριές, αβοκάντο, παξιμάδι, κρίταμο, αυγά, πατάτες, ρίγανη, φρέσκος βασιλικός και Πηχτόγαλο.</div>
+
+                        <h4 class="menu-category-title">Κυρίως Πιάτο</h4>
+                        <div class="dish-name">Αρνί "Οφτό" με Πατάτες Φούρνου</div>
+                        <div class="dish-description">Σιγομαγειρεμένο αρνίσιο μπούτι που σερβίρεται με παραδοσιακές πατάτες.</div>
+
+                        <h4 class="menu-category-title">Επιδόρπιο</h4>
+                        <div class="dish-name">Ξεροτήγανα με Παγωτό Καϊμάκι</div>
+                        <div class="dish-description">Τραγανά μελωμένα ξεροτήγανα με καρύδια και σουσάμι, συνοδευόμενα από παγωτό καϊμάκι.</div>
+
+                        <div class="mt-5 pt-4 border-top text-center">
+                            <p class="text-muted fst-italic mb-2" style="font-family: 'Lora', serif; font-size: 1.05rem;">Απολαύστε αυτό το πλήρες μενού</p>
+                            <span class="badge rounded-pill bg-light text-dark border px-4 py-2" style="font-family: 'Lato', sans-serif; font-size: 0.95rem; letter-spacing: 1px;">
+                                €85 ανά άτομο <span class="text-muted fw-normal">(Για 6+ άτομα)</span>
+                            </span>
+                        </div>
+                    </div>
+                    
+                    <!-- SEAFOOD -->
+                     <div class="tab-pane fade" id="seafood" role="tabpanel">
+                        
+                        <h4 class="menu-category-title">Αρτοποιία</h4>
+                        <div class="dish-name">Ποικιλία Ψωμιών</div>
+                        <div class="dish-description">Ατομικά ψωμάκια και ποικιλία από κριτσίνια που σερβίρονται με πατέ ελιάς.</div>
+
+                        <h4 class="menu-category-title">Ορεκτικά</h4>
+                        <div class="dish-name">Μους Ταραμά</div>
+                        <div class="dish-description">Παραδοσιακή μους ταραμά σε δύο χρώματα (λευκό & κόκκινο).</div>
+                        <div class="dish-name">Γαρίδες Σαγανάκι</div>
+                        <div class="dish-description">Σοταρισμένες γαρίδες με πιπεριές, κρεμμύδι, σκόρδο, ούζο, σάλτσα ντομάτας, φέτα και φρέσκο μαϊντανό.</div>
+                        <div class="dish-name">Σαρδέλες "Παντρεμένες"</div>
+                        <div class="dish-description">Ψητές σαρδέλες με ντομάτα, σκόρδο, λεμόνι και έξτρα παρθένο ελαιόλαδο.</div>
+
+                        <h4 class="menu-category-title">Σαλάτα</h4>
+                        <div class="dish-name">Χταποδοσαλάτα με Πατάτα</div>
+                        <div class="dish-description">Βραστή πατάτα, κρεμμύδι, πράσινη πιπεριά και τρυφερό χταπόδι με dressing εσπεριδοειδών και μουστάρδα.</div>
+
+                        <h4 class="menu-category-title">Κυρίως Πιάτο</h4>
+                        <p class="text-muted fst-italic mb-4" style="font-size: 0.9rem;">(Παρακαλώ επιλέξτε ένα από τα παρακάτω)</p>
+                        
+                        <div class="dish-name">Φιλέτο Τσιπούρας</div>
+                        <div class="dish-description">Σοταρισμένο στο τηγάνι, σερβίρεται με άγρια χόρτα και dressing λεμονιού-μουστάρδας.</div>
+                        <div class="dish-name">Φιλέτο Λαβράκι</div>
+                        <div class="dish-description">Σοταρισμένο στο τηγάνι, σερβίρεται με βραστά καρότα, κολοκυθάκια και σάλτσα λαδολέμονο.</div>
+                        <div class="dish-name">Αστακομακαρονάδα <span style="font-size: 0.9rem;" class="text-muted fw-normal fst-italic">(Για δύο άτομα)</span></div>
+                        <div class="dish-description">Φρέσκος αστακός με κρεμμύδι, λευκό κρασί και πλούσια σάλτσα ντομάτας.</div>
+
+                        <h4 class="menu-category-title">Επιδόρπιο</h4>
+                        <div class="dish-name">Πορτοκαλόπιτα με Παγωτό Καϊμάκι</div>
+                        <div class="dish-description">Παραδοσιακή πορτοκαλόπιτα που σερβίρεται με παγωτό καϊμάκι.</div>
+
+                        <div class="mt-5 pt-4 border-top text-center">
+                            <p class="text-muted fst-italic mb-2" style="font-family: 'Lora', serif; font-size: 1.05rem;">Απολαύστε αυτό το πλήρες μενού</p>
+                            <span class="badge rounded-pill bg-light text-dark border px-4 py-2" style="font-family: 'Lato', sans-serif; font-size: 0.95rem; letter-spacing: 1px;">
+                                €90 ανά άτομο <span class="text-muted fw-normal">(Για 6+ άτομα)</span>
+                            </span>
+                        </div>
+                        
+                    </div>
+                    <!-- VEGETERIAN -->
+                    <div class="tab-pane fade" id="vegetarian" role="tabpanel">
+                       <h4 class="menu-category-title">Αρτοποιία</h4>
+                        <div class="dish-name">Ποικιλία Ψωμιών</div>
+                        <div class="dish-description">Ατομικά ψωμάκια και ποικιλία από κριτσίνια που σερβίρονται με πατέ ελιάς.</div>
+
+                        <h4 class="menu-category-title">Ορεκτικά</h4>
+                        <div class="dish-name">Φάβα Σαντορίνης</div>
+                        <div class="dish-description">Πουρές από λαθούρι με καραμελωμένα κρεμμύδια.</div>
+                        <div class="dish-name">Ντολμαδάκια</div>
+                        <div class="dish-description">Γεμιστά αμπελόφυλλα με ρύζι και φρέσκα μυρωδικά.</div>
+                        <div class="dish-name">Μαραθόπιτα</div>
+                        <div class="dish-description">Παραδοσιακή κρητική πίτα με μάραθο, ψημένη σε ελαιόλαδο.</div>
+
+                        <h4 class="menu-category-title">Σαλάτα</h4>
+                        <div class="dish-name">Παντζαροσαλάτα</div>
+                        <div class="dish-description">Βραστά παντζάρια, καρύδια και ταχίνι.</div>
+
+                        <h4 class="menu-category-title">Κυρίως Πιάτο</h4>
+                        <p class="text-muted fst-italic mb-4" style="font-size: 0.9rem;">(Παρακαλώ επιλέξτε ένα από τα παρακάτω)</p>
+                        
+                        <div class="dish-name">Γεμιστά</div>
+                        <div class="dish-description">Ντομάτες και πιπεριές γεμιστές με ρύζι, σάλτσα ντομάτας, δυόσμο και βασιλικό.</div>
+                        <div class="dish-name">Μπριάμ</div>
+                        <div class="dish-description">Ψητά κολοκυθάκια, πατάτες, μελιτζάνες, κρεμμύδι, σκόρδο και σάλτσα ντομάτας.</div>
+
+                        <h4 class="menu-category-title">Επιδόρπιο</h4>
+                        <div class="dish-name">Χαλβάς Σιμιγδαλένιος</div>
+                        <div class="dish-description">Παραδοσιακός χαλβάς με ηλιέλαιο, σιμιγδάλι, ζάχαρη και κρητικές σταφίδες.</div>
+
+                        <div class="mt-5 pt-4 border-top text-center">
+                            <p class="text-muted fst-italic mb-2" style="font-family: 'Lora', serif; font-size: 1.05rem;">Απολαύστε αυτό το πλήρες μενού</p>
+                            <span class="badge rounded-pill bg-light text-dark border px-4 py-2" style="font-family: 'Lato', sans-serif; font-size: 0.95rem; letter-spacing: 1px;">
+                                €80 ανά άτομο <span class="text-muted fw-normal">(Για 6+ άτομα)</span>
+                            </span>
+                        </div>
+                    </div>
+                    <!-- KIDS -->
+                    <div class="tab-pane fade" id="kids" role="tabpanel">
+                        <h4 class="menu-category-title">Για τους Μικρούς μας Φίλους</h4>
+                        
+                        <div class="dish-name">Ζυμαρικά με Σάλτσα Ντομάτας</div>
+                        <div class="dish-description">Λιγκουίνι ή πένες με απαλή σάλτσα ντομάτας και τριμμένη κρητική γραβιέρα.</div>
+                        
+                        <div class="dish-name">Κοτομπουκιές</div>
+                        <div class="dish-description">Φιλετάκια κοτόπουλου παναρισμένα και τηγανισμένα σε αγνό ελαιόλαδο.</div>
+                        
+                        <div class="dish-name">Beef Burger</div>
+                        <div class="dish-description">Ψωμάκι brioche, τυρί cheddar, ελαφριά μαγιονέζα, φρέσκια ντομάτα και μαρούλι.</div>
+                        
+                        <div class="dish-name">Παιδική Χωριάτικη</div>
+                        <div class="dish-description">Ντομάτα, αγγούρι, φέτα και ελαιόλαδο (χωρίς κρεμμύδι).</div>
+                        
+                        <div class="dish-name">Φρουτοσαλάτα</div>
+                        <div class="dish-description">Μπολ με φρέσκα φρούτα εποχής.</div>
+
+                        <div class="mt-5 pt-4 border-top text-center">
+                            <span class="badge rounded-pill bg-light text-dark border px-4 py-2" style="font-family: 'Lato', sans-serif; font-size: 0.95rem; letter-spacing: 1px;">
+                                €48 ανά παιδί
+                            </span>
+                        </div>
+                    </div>
+                    <!-- COOKING CLASS -->
+                    <div class="tab-pane fade" id="cooking" role="tabpanel">
+                        <h4 class="menu-category-title">Ορεκτικά</h4>
+                        <div class="dish-name">Τζατζίκι</div>
+                        <div class="dish-description">Παραδοσιακό ντιπ γιαουρτιού με αγγούρι και σκόρδο.</div>
+                        
+                        <div class="dish-name">Κρητικός Ντάκος</div>
+                        <div class="dish-description">Κρίθινο παξιμάδι, τριμμένη ντομάτα, φέτα, έξτρα παρθένο ελαιόλαδο και βότανα.</div>
+                        
+                        <div class="dish-name">Κολοκυθοκεφτέδες</div>
+                        <div class="dish-description">Κολοκύθι, φρέσκο & ξερό κρεμμύδι, δυόσμος, άνηθος, μαϊντανός, φέτα και ελαιόλαδο.</div>
+
+                        <h4 class="menu-category-title">Σαλάτα</h4>
+                        <div class="dish-name">Πράσινη Σαλάτα "Dilira"</div>
+                        <div class="dish-description">Λόλα κόκκινη & πράσινη, baby σπανάκι, μήλο Granny Smith, λιαστή ντομάτα, κρητική σταφίδα, γραβιέρα και dressing μέλι-μουστάρδα.</div>
+
+                        <h4 class="menu-category-title">Κυρίως Πιάτο</h4>
+                        <div class="dish-name">Χοιρινή Τηγανιά</div>
+                        <div class="dish-description">Σοταρισμένο χοιρινό με πολύχρωμες πιπεριές, κρεμμύδι, σκόρδο και λευκό κρασί. Σερβίρεται με φρέσκες τηγανητές πατάτες.</div>
+
+                        <h4 class="menu-category-title">Επιδόρπιο</h4>
+                        <div class="dish-name">Λουκουμάδες</div>
+                        <div class="dish-description">Ζεστοί, χρυσαφένιοι λουκουμάδες με θυμαρίσιο μέλι, κανέλα και σουσάμι.</div>
+
+                        <div class="mt-5 pt-4 border-top text-center">
+                            <p class="text-muted fst-italic mb-2" style="font-family: 'Lora', serif; font-size: 1.05rem;">Απολαύστε αυτή την εμπειρία</p>
+                            <span class="badge rounded-pill bg-light text-dark border px-4 py-2" style="font-family: 'Lato', sans-serif; font-size: 0.95rem; letter-spacing: 1px;">
+                                €80 ανά άτομο <span class="text-muted fw-normal">(Για 6+ άτομα)</span>
+                            </span>
+                        </div>
+                    </div>
+                    <!-- BREAKFAST -->
+                    <div class="tab-pane fade" id="breakfast" role="tabpanel">
+                        <h4 class="menu-category-title text-center">Πρωινή Επιλογή</h4>
+                        <div class="text-center mb-5">
+                            <ul class="list-unstyled elegant-list" style="font-family: 'Lora', serif; font-size: 1.15rem; color: #212529; line-height: 2.5;">
+                                <li>Φρέσκος Χυμός Πορτοκάλι</li>
+                                <li>Γάλα, Τσάι & Καφές Φίλτρου</li>
+                                <li>Ποικιλία Τυριών & Αλλαντικών</li>
+                                <li>Φρέσκο Ψωμί & Τοστ</li>
+                                <li>Φρέσκο Βούτυρο & Θυμαρίσιο Μέλι</li>
+                                <li>Σπιτική Μαρμελάδα</li>
+                                <li>Παραδοσιακό Γιαούρτι</li>
+                                <li>Ρυζόγαλο</li>
+                                <li>Τυροπιτάκια & Σπανακοπιτάκια</li>
+                            </ul>
+                        </div>
+
+                        <h4 class="menu-category-title text-center mt-5">Πρωινές Δημιουργίες του Σεφ</h4>
+                        <p class="text-muted fst-italic mb-4 text-center" style="font-size: 0.9rem;">(Παρακαλώ επιλέξτε ένα ζεστό πιάτο ανά άτομο)</p>
+
+                        <div class="text-center">
+                            <div class="dish-name">Κρητική Ομελέτα</div>
+                            <div class="dish-description">Φρέσκα αυγά με μανιτάρια, καπνιστό απάκι και ψητή γραβιέρα.</div>
+
+                            <div class="dish-name">Αυγά Καγιανά (Στραπατσάδα)</div>
+                            <div class="dish-description">Φρέσκα αυγά με ντομάτα και κρέμα φέτας.</div>
+
+                            <div class="dish-name">Σάντουιτς με Αβοκάντο & Αυγό</div>
+                            <div class="dish-description">Χειροποίητο ψωμάκι με αβοκάντο, βραστό αυγό, baby σπανάκι, αγγούρι και ντομάτα.</div>
+
+                            <div class="dish-name">Γλυκές Τηγανίτες (Pancakes)</div>
+                            <div class="dish-description">Ζεστές τηγανίτες με επιλογή από μέλι ή Nutella, μπανάνα και φράουλες.</div>
+                        </div>
+
+                        <div class="mt-5 pt-4 border-top text-center">
+                            <p class="text-muted fst-italic mb-2" style="font-family: 'Lora', serif; font-size: 1.05rem;">Απολαύστε αυτό το πλήρες πρωινό</p>
+                            <span class="badge rounded-pill bg-light text-dark border px-4 py-2" style="font-family: 'Lato', sans-serif; font-size: 0.95rem; letter-spacing: 1px;">
+                                €50 ανά άτομο <span class="text-muted fw-normal">(Για 6+ άτομα)</span>
+                            </span>
+                        </div> 
+                    </div>
+                    <!-- PRICING & NOTES -->
+                <div class="tab-pane fade text-start" id="notes" role="tabpanel">
+                        <h4 class="menu-category-title text-center">Τιμοκατάλογος Μενού</h4>
                         <ul class="list-unstyled text-center" style="font-family: 'Lora', serif; font-size: 1.15rem;">
-                            <li class="mb-2"><strong>BBQ Menu:</strong> €80 per guest</li>
-                            <li class="mb-2"><strong>Traditional Cretan:</strong> €95 per guest</li>
-                            <li class="mb-2"><strong>Seafood Menu:</strong> €120 per guest</li>
+                            <li class="mb-2"><strong>BBQ Μενού:</strong> €85 ανά άτομο</li>
+                            <li class="mb-2"><strong>Κρητικό Μενού:</strong> €85 ανά άτομο</li>
+                            <li class="mb-2"><strong>Μενού Θαλασσινών:</strong> €90 ανά άτομο</li>
+                            <li class="mb-2"><strong>Vegetarian & Vegan:</strong> €80 ανά άτομο</li>
+                            <li class="mb-2"><strong>Παιδικό Μενού:</strong> €48 ανά παιδί</li>
+                            <li class="mb-2"><strong>Cooking Class:</strong> €80 ανά άτομο</li>
+                            <li class="mb-2"><strong>Πρωινό:</strong> €50 ανά άτομο</li>
                         </ul>
-                        <p class="text-muted text-center mt-3" style="font-size: 0.9rem; font-family: 'Lato', sans-serif;">
-                            *All menus require a minimum of 4 guests. Prices include grocery shopping, preparation, service, and kitchen clean-up.
+                        <p class="text-muted text-center mt-3" style="font-size: 0.95rem; font-family: 'Lato', sans-serif;">
+                            *Όλα τα μενού απαιτούν ελάχιστη συμμετοχή 6 ατόμων. Για μικρότερες ομάδες, η τιμή ενδέχεται να αλλάξει. Οι τιμές περιλαμβάνουν την αγορά των υλικών, την προετοιμασία, το σερβίρισμα και τον καθαρισμό της κουζίνας.
                         </p>
                         
-                        <h4 class="menu-category-title text-center">Policies & Information</h4>
+                        <h4 class="menu-category-title text-center">Πολιτική & Πληροφορίες</h4>
                         <ul class="list-unstyled" style="font-family: 'Lato', sans-serif; line-height: 1.8;">
-                            <li><i class="bi bi-check2-circle text-success me-2"></i><strong>Service Style:</strong> Appetizers are served for every two people to encourage a relaxed, shared dining experience. Main courses are individual portions.</li>
-                            <li><i class="bi bi-check2-circle text-success me-2"></i><strong>Quality Ingredients:</strong> We exclusively use fresh vegetables, top-quality meats, Cretan P.D.O. cheeses, and extra virgin Cretan olive oil.</li>
-                            <li><i class="bi bi-check2-circle text-success me-2"></i><strong>Fish Policy:</strong> Fish is served filleted (boneless). Dentex or White Grouper (2-3kg) are available upon request based on market availability.</li>
-                            <li><i class="bi bi-check2-circle text-success me-2"></i><strong>Pricing:</strong> Prices are subject to change based on seasonal market fluctuations.</li>
+                            <li><i class="bi bi-check2-circle text-success me-2"></i><strong>Ψωμί:</strong> Σερβίρεται σε ατομικές μερίδες (λευκό, ολικής ή μπύρας).</li>
+                            <li><i class="bi bi-check2-circle text-success me-2"></i><strong>Στυλ Σερβιρίσματος:</strong> Τα ορεκτικά σερβίρονται ανά δύο άτομα για μια κοινή γευστική εμπειρία. Τα κυρίως πιάτα είναι ατομικά, ενώ οι σαλάτες υπολογίζονται για τέσσερα άτομα.</li>
+                            <li><i class="bi bi-check2-circle text-success me-2"></i><strong>Ποιότητα Υλικών:</strong> Χρησιμοποιούμε αποκλειστικά φρέσκα λαχανικά, κρέατα άριστης ποιότητας, κρητικά τυριά Π.Ο.Π. και έξτρα παρθένο ελαιόλαδο.</li>
+                            <li><i class="bi bi-check2-circle text-success me-2"></i><strong>Πολιτική Ψαριών:</strong> Τα ψάρια σερβίρονται σε φιλέτο. Συναγρίδα ή Σφυρίδα (2-3kg) είναι διαθέσιμα κατόπιν συνεννόησης βάσει διαθεσιμότητας αγοράς.</li>
+                            <li><i class="bi bi-check2-circle text-success me-2"></i><strong>Τιμές:</strong> Οι τιμές ενδέχεται να αλλάξουν βάσει εποχικότητας και διαθεσιμότητας υλικών.</li>
                         </ul>
                     </div>
                 </div>
